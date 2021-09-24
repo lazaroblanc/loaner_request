@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_cdltd_loaner_req_loaner_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_cdltd_loaner_req_loaner_task">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label/>
@@ -30,7 +35,7 @@
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_cdltd_loaner_req_loaner_request</name>
+        <name>x_cdltd_loaner_req_loaner_task</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -42,19 +47,19 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>8</sizeclass>
+        <sizeclass>2</sizeclass>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-09-22 12:42:23</sys_created_on>
-        <sys_id>a6e96a38f5b270107f44a665743638c3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_cdltd_loaner_req_loaner_request</sys_name>
+        <sys_created_on>2021-09-23 13:55:39</sys_created_on>
+        <sys_id>e9444499f572b0107f44a6657436387c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_cdltd_loaner_req_loaner_task</sys_name>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6f49e670f53270107f44a66574363829</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">6f49e670f53270107f44a66574363829</sys_scope>
-        <sys_update_name>sys_dictionary_x_cdltd_loaner_req_loaner_request_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_cdltd_loaner_req_loaner_task_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2021-09-24 10:40:19</sys_updated_on>
         <table_reference>false</table_reference>
